@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker, Session
 
 
 # SQLAlchemy setup 
-DATABASE_URL = "postgresql://postgres:0523@db.auyohejpndqanhtcohry.supabase.co:5432/postgres"
+DATABASE_URL = "postgresql://postgres:[passwordHERE]@db.auyohejpndqanhtcohry.supabase.co:5432/postgres"
 
 
 engine = create_engine(DATABASE_URL)
